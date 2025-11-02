@@ -1,4 +1,4 @@
-# Taller 1 Intro a Web Móvil
+# Taller 2 Intro a Web Móvil
 ### Grupo 3
 Integrantes:
 
