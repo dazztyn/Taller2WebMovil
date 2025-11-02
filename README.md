@@ -20,6 +20,14 @@ maximiliano.pasten@alumnos.ucn.cl
 
 # APIs Desarrolladas:
 
-- `NestJS` → Sección de Series (De TVMaze en taller 1)
+- `NestJS` → Sección de Series (De TVMaze en taller 1) 
 - `Express` → Sección de Música (De iTunes Search API en taller 1)
 - `FastAPI` → Sección de Películas (De TMDB en taller 1)
+
+Las 3 APIs se conectarán a bases de datos en PostgreSQL
+
+### Instalar Dependencias:
+- NestJS: Instalar Node, luego ejecutar en la terminal `npm install -g @nestjs/cli`, luego al clonar el repo ejecutar `npm i`
+- Express: Instalar Node, luego ejecutar en la terminal `npm install express cors dotenv pg`
+- FastAPI: Instalar Python, luego ejecutar en la terminal `python -m pip install fastapi uvicorn psycopg2-binary sqlalchemy pydantic`
+
