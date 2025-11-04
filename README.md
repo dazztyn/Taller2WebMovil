@@ -20,9 +20,9 @@ maximiliano.pasten@alumnos.ucn.cl
 
 # APIs Desarrolladas:
 
-- `NestJS` → Sección de Series (De TVMaze en taller 1) 
-- `Express` → Sección de Música (De iTunes Search API en taller 1)
-- `FastAPI` → Sección de Películas (De TMDB en taller 1)
+- `NestJS` → Sección de Películas (De TVMaze en taller 1) 
+- `Express` → Sección de Series (De iTunes Search API en taller 1)
+- `FastAPI` → Sección de Música (De TMDB en taller 1)
 
 Las 3 APIs se conectarán a bases de datos en PostgreSQL
 
