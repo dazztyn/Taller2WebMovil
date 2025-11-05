@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura Pop - Home</title>
+  
+  <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self' data: 'unsafe-inline' 'unsafe-eval'; 
+                 script-src 'self' https://cdn.tailwindcss.com 'unsafe-inline'; 
+                 connect-src 'self' http://localhost:3000 http://localhost:3001 http://localhost:8000;">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-purple-700 text-white p-4 text-center text-2xl font-bold">
+    🌟 Cultura Pop
+  </header>
+
+  <main class="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+    <a href="./Peliculas/pagPeliculas.html" 
+       class="block bg-white shadow rounded-xl p-6 text-center hover:bg-purple-100 transition">
+      🎬 <span class="block mt-2 font-bold text-lg">Películas</span>
+    </a>
+
+    <a href="./Series/pagSeries.html" 
+       class="block bg-white shadow rounded-xl p-6 text-center hover:bg-purple-100 transition">
+      📺 <span class="block mt-2 font-bold text-lg">Series</span>
+    </a>
+
+    <a href="./Musica/MainPageMusic.html" 
+       class="block bg-white shadow rounded-xl p-6 text-center hover:bg-purple-100 transition">
+      🎵 <span class="block mt-2 font-bold text-lg">Música</span>
+    </a>
+
+    </main>
+
+  <footer class="bg-purple-700 text-white text-center p-4 mt-6">
+    © 2025 Cultura Pop - Taller Web Móvil
