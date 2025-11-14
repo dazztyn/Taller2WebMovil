@@ -1,0 +1,323 @@
+[
+  {
+    "titulo": "Shrek",
+    "ano": 2001,
+    "descripcion": "Un ogro se embarca en una misión para rescatar a una princesa.",
+    "puntuacion": 8.7,
+    "imagenUrl": "https://subtitulamos.com/poster/1816.jpg",
+    "genero": "Animación"
+  },
+  {
+    "titulo": "Spider-Man: No Way Home",
+    "ano": 2021,
+    "descripcion": "Peter Parker busca la ayuda del Doctor Strange.",
+    "puntuacion": 8.2,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGFmNGI3MDI3NWFmXkEyXkFqcGdeQXVyNzE5ODMwNzI@._V1_SX300.jpg",
+    "genero": "Acción"
+  },
+  {
+    "titulo": "Dune",
+    "ano": 2021,
+    "descripcion": "Un joven noble debe viajar al planeta más peligroso del universo.",
+    "puntuacion": 8.0,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "The Shawshank Redemption",
+    "ano": 1994,
+    "descripcion": "Dos hombres encarcelados establecen un vínculo durante varios años.",
+    "puntuacion": 9.3,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNDE3ODMxYzMtY2Q5NC00YjYtNTA4YS1YOTE5MmU1MDBkMTM3XkEyXkFqcGdeQXVyNjgwNzE4Mjk@._V1_SX300.jpg",
+    "genero": "Drama"
+  },
+  {
+    "titulo": "The Godfather",
+    "ano": 1972,
+    "descripcion": "El patriarca de una dinastía criminal transfiere el control a su hijo.",
+    "puntuacion": 9.2,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3NTYwNDQxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genero": "Crimen"
+  },
+  {
+    "titulo": "The Dark Knight",
+    "ano": 2008,
+    "descripcion": "Batman se enfrenta al Joker, una amenaza anárquica.",
+    "puntuacion": 9.0,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+    "genero": "Acción"
+  },
+  {
+    "titulo": "Pulp Fiction",
+    "ano": 1994,
+    "descripcion": "Las vidas de dos sicarios, un boxeador y la esposa de un gánster se entrelazan.",
+    "puntuacion": 8.9,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtMTNkZi00MzlhLWFkOWYtMmU1YjZkYWM0NWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genero": "Crimen"
+  },
+  {
+    "titulo": "Inception",
+    "ano": 2010,
+    "descripcion": "Un ladrón que roba secretos corporativos a través de los sueños.",
+    "puntuacion": 8.8,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Forrest Gump",
+    "ano": 1994,
+    "descripcion": "Un hombre sencillo presencia y afecta eventos históricos de EE.UU.",
+    "puntuacion": 8.8,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1YmFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "genero": "Drama"
+  },
+  {
+    "titulo": "The Matrix",
+    "ano": 1999,
+    "descripcion": "Un hacker descubre que la realidad es una simulación.",
+    "puntuacion": 8.7,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Parasite",
+    "ano": 2019,
+    "descripcion": "Una familia pobre se infiltra en la vida de una familia rica.",
+    "puntuacion": 8.5,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BYWZjMWRhMjUtYmNlYS00MDU5LWJjMjMtM2NlMmRiODEyMTM1XkEyXkFqcGdeQXVyODk4OTc3MTI@._V1_SX300.jpg",
+    "genero": "Thriller"
+  },
+  {
+    "titulo": "Interstellar",
+    "ano": 2014,
+    "descripcion": "Un equipo de exploradores viaja a través de un agujero de gusano.",
+    "puntuacion": 8.7,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MzYtNmI0Yi00NDYyLWEyOTYtMDY4MjAwMDI1NDU1XkEyXkFqcGdeQXVyMzI2MTc2NzE@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Spirited Away",
+    "ano": 2001,
+    "descripcion": "Una niña se adentra en un mundo mágico de espíritus.",
+    "puntuacion": 8.6,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YTM2LTA5NzgtNWMwNWE5NWIxNzU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "genero": "Animación"
+  },
+  {
+    "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+    "ano": 2001,
+    "descripcion": "Un joven hobbit debe destruir un anillo poderoso.",
+    "puntuacion": 8.8,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzYy00MTE2LWFmNzItM2I4YjA4YzA3MWRiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genero": "Fantasía"
+  },
+  {
+    "titulo": "Fight Club",
+    "ano": 1999,
+    "descripcion": "Un oficinista insomne forma un club de lucha clandestino.",
+    "puntuacion": 8.8,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YjAtZGM2ZC00Y2ZkLThjOWYtY2RkYmQ3Y2RiZWRmXkEyXkFqcGdeQXVyMjQxODc0ODM@._V1_SX300.jpg",
+    "genero": "Drama"
+  },
+  {
+    "titulo": "Oppenheimer",
+    "ano": 2023,
+    "descripcion": "La historia del físico J. Robert Oppenheimer y el Proyecto Manhattan.",
+    "puntuacion": 8.6,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMDEzZDY2ZDItNTU4ZS00OTA5LTk4MGMtZDEyNWVjYjE4YjFmXkEyXkFqcGdeQXVyMTM1NjM2ODU1._V1_SX300.jpg",
+    "genero": "Biografía"
+  },
+  {
+    "titulo": "Joker",
+    "ano": 2019,
+    "descripcion": "Un comediante fallido se sumerge en la locura y el caos.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDItN2EwYjFmN2FhMzc1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "genero": "Thriller"
+  },
+  {
+    "titulo": "Avengers: Endgame",
+    "ano": 2019,
+    "descripcion": "Los Vengadores restantes se unen para revertir las acciones de Thanos.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzY5NTY5NzM@._V1_SX300.jpg",
+    "genero": "Acción"
+  },
+  {
+    "titulo": "Gladiator",
+    "ano": 2000,
+    "descripcion": "Un general romano traicionado busca venganza como gladiador.",
+    "puntuacion": 8.5,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3YjIxMGNhYjY1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "genero": "Acción"
+  },
+  {
+    "titulo": "Back to the Future",
+    "ano": 1985,
+    "descripcion": "Un adolescente es enviado accidentalmente 30 años al pasado.",
+    "puntuacion": 8.5,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjQ0OS00NGY1LWFkYjctZTVlYjAyMDI5MmU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Alien",
+    "ano": 1979,
+    "descripcion": "La tripulación de una nave espacial es atacada por una criatura mortal.",
+    "puntuacion": 8.5,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "genero": "Terror"
+  },
+  {
+    "titulo": "The Shining",
+    "ano": 1980,
+    "descripcion": "Una familia cuida un hotel aislado durante el invierno.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGM0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "genero": "Terror"
+  },
+  {
+    "titulo": "Coco",
+    "ano": 2017,
+    "descripcion": "Un niño viaja a la Tierra de los Muertos para descubrir su historia familiar.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtN2YwNy00MDdjLTg0ZGEtNDRhYjU4NTMyNTE3XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg",
+    "genero": "Animación"
+  },
+  {
+    "titulo": "Mad Max: Fury Road",
+    "ano": 2015,
+    "descripcion": "En un desierto postapocalíptico, Max ayuda a escapar a un grupo de mujeres.",
+    "puntuacion": 8.1,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNGFiYjQxMGQtNzFkYi00NGE2LTk4OYYtY2JhYTY4MzQ4Y2RhXkEyXkFqcGdeQXVyNTA4NzY0Njg@._V1_SX300.jpg",
+    "genero": "Acción"
+  },
+  {
+    "titulo": "WALL·E",
+    "ano": 2008,
+    "descripcion": "Un robot solitario encargado de limpiar la Tierra se enamora.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMTczOTA3OTM0N15BMl5BanBnXkFtZTcwOTY4OTQyMw@@._V1_SX300.jpg",
+    "genero": "Animación"
+  },
+  {
+    "titulo": "Indiana Jones and the Raiders of the Lost Ark",
+    "ano": 1981,
+    "descripcion": "Un arqueólogo aventurero busca la mítica Arca de la Alianza.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxMQ@@._V1_SX300.jpg",
+    "genero": "Aventura"
+  },
+  {
+    "titulo": "The Prestige",
+    "ano": 2006,
+    "descripcion": "Dos magos rivales compiten con trágicas consecuencias.",
+    "puntuacion": 8.5,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTQyMF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
+    "genero": "Misterio"
+  },
+  {
+    "titulo": "Se7en",
+    "ano": 1995,
+    "descripcion": "Dos detectives rastrean a un asesino en serie basado en los siete pecados capitales.",
+    "puntuacion": 8.6,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BOTUwOTY3NjM4OV5BMl5BanBnXkFtZTgwOShopBExG._V1_SX300.jpg",
+    "genero": "Thriller"
+  },
+  {
+    "titulo": "Blade Runner 2049",
+    "ano": 2017,
+    "descripcion": "Un nuevo Blade Runner descubre un secreto que podría sumir a la sociedad en el caos.",
+    "puntuacion": 8.0,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwYWQyMDI3MjI@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Inglourious Basterds",
+    "ano": 2009,
+    "descripcion": "En la Francia ocupada, un plan para asesinar líderes nazis toma forma.",
+    "puntuacion": 8.3,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGYtZmE1NjhjLA stratification._V1_SX300.jpg",
+    "genero": "Bélico"
+  },
+  {
+    "titulo": "Whiplash",
+    "ano": 2014,
+    "descripcion": "Un joven baterista de jazz es presionado al límite por su instructor.",
+    "puntuacion": 8.5,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTg0MDEtN2RhODE5EWE5MzIxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "genero": "Drama"
+  },
+  {
+    "titulo": "Goodfellas",
+    "ano": 1990,
+    "descripcion": "La historia del ascenso y caída del mafioso Henry Hill.",
+    "puntuacion": 8.7,
+    "imagenUrl": "httpsa://m.media-amazon.com/images/M/MV5BY2NkZjEzYmItMTYxOC00YzQxLWFkYjYtMmVlYjM0ZDBiZGU5L2ltYWdlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genero": "Biografía"
+  },
+  {
+    "titulo": "Saving Private Ryan",
+    "ano": 1998,
+    "descripcion": "Un grupo de soldados busca a un paracaidista tras el Desembarco de Normandía.",
+    "puntuacion": 8.6,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00YzcDLTk0NjYtM2QzMmM4Y2Y0YmY0XkEyXkFqcGdeQXVyNTA4NzY0Njg@._V1_SX300.jpg",
+    "genero": "Bélico"
+  },
+  {
+    "titulo": "The Silence of the Lambs",
+    "ano": 1991,
+    "descripcion": "Una agente del FBI busca la ayuda de un asesino caníbal para atrapar a otro.",
+    "puntuacion": 8.6,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "genero": "Thriller"
+  },
+  {
+    "titulo": "Star Wars: Episode V - The Empire Strikes Back",
+    "ano": 1980,
+    "descripcion": "Los Rebeldes son perseguidos por el Imperio en toda la galaxia.",
+    "puntuacion": 8.7,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDE3NTkyNmY1YmZiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Your Name.",
+    "ano": 2016,
+    "descripcion": "Dos adolescentes intercambian cuerpos misteriosamente.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BODdlMGU0MGEtM2UzMy00YjFjLWE2NTAtNzJiOTYxNmMxNzA2XkEyXkFqcGdeQXVyNTkzMDM0NDM@._V1_SX300.jpg",
+    "genero": "Animación"
+  },
+  {
+    "titulo": "No Country for Old Men",
+    "ano": 2007,
+    "descripcion": "Un cazador es perseguido por un asesino tras encontrar dinero de drogas.",
+    "puntuacion": 8.2,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMjA5NjQ3NTAxNV5BMl5BanBnXkFtZTcwODI1MjU3MQ@@._V1_SX300.jpg",
+    "genero": "Crimen"
+  },
+  {
+    "titulo": "Princess Mononoke",
+    "ano": 1997,
+    "descripcion": "Un príncipe lucha por mediar entre los humanos y los espíritus del bosque.",
+    "puntuacion": 8.3,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzOThjMzA1YS00YTM4LWI4OSQtMDRiMDI1ODUzY2U2XkEyXkFqcGdeQXVyOTA4ODc3MTY@._V1_SX300.jpg",
+    "genero": "Animación"
+  },
+  {
+    "titulo": "Reservoir Dogs",
+    "ano": 1992,
+    "descripcion": "Un atraco a una joyería sale terriblemente mal.",
+    "puntuacion": 8.3,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzMi00OWFjLTkzOTYtMzg0YmMzYWI4NGUzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "genero": "Crimen"
+  },
+  {
+    "titulo": "Django Unchained",
+    "ano": 2012,
+    "descripcion": "Un esclavo liberado se une a un cazarrecompensas para rescatar a su esposa.",
+    "puntuacion": 8.4,
+    "imagenUrl": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwNTQ3NTMyNA@@._V1_SX300.jpg",
+    "genero": "Western"
+  }
+    
+]
