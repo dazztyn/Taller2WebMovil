@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, String
-from .database import Base  # Importamos 'Base' desde nuestro archivo database.py
+from .database import Base
 
-# Esta es tu "Entidad"
-# Define la tabla 'songs' en la base de datos
+
 class Song(Base):
     __tablename__ = "songs"
     
