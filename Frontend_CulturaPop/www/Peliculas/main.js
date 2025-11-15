@@ -1,44 +1,77 @@
 // Espera a que todo el HTML esté cargado antes de ejecutar el script
 document.addEventListener('DOMContentLoaded', () => {
     
-    const apiUrl = 'http://localhost:3000/peliculas'; // <-- ¡Tu API de NestJS!
+    const apiUrl = 'http://localhost:3000/peliculas'; // Tu API de NestJS
     const app = document.getElementById('app');
     const loading = document.getElementById('loading');
 
-    // Función para crear una "tarjeta" (card) de película
-    function crearPeliculaCard(pelicula) {
-        // 1. Crear el contenedor principal de la tarjeta
-        const card = document.createElement('div');
-        card.className = 'pelicula-card'; // Le asignamos una clase para el CSS
+    // Referencias a los nuevos botones
+    const btnHome = document.getElementById('btn-home');
+    const btnSortNombre = document.getElementById('btn-sort-nombre');
+    const btnSortRating = document.getElementById('btn-sort-rating');
 
-        // 2. Crear la imagen
+    // Variable para guardar los datos de la API
+    let todasLasPeliculas = [];
+
+    // --- Lógica de los Botones ---
+
+    btnHome.addEventListener('click', () => {
+        // Vuelve al index.html (subiendo un nivel en la carpeta)
+        window.location.href = '../index.html';
+    });
+
+    btnSortNombre.addEventListener('click', () => {
+        // Ordena alfabéticamente por título
+        const peliculasOrdenadas = [...todasLasPeliculas].sort((a, b) => {
+            return a.titulo.localeCompare(b.titulo);
+        });
+        renderPeliculas(peliculasOrdenadas);
+    });
+
+    btnSortRating.addEventListener('click', () => {
+        // Ordena numéricamente por puntuación (de mayor a menor)
+        const peliculasOrdenadas = [...todasLasPeliculas].sort((a, b) => {
+            return b.puntuacion - a.puntuacion;
+        });
+        renderPeliculas(peliculasOrdenadas);
+    });
+
+
+    // --- Funciones Principales ---
+
+    // NUEVA FUNCIÓN: Dibuja las películas en la página
+    // Recibe un array de películas y las muestra
+    function renderPeliculas(peliculas) {
+        // 1. Limpia el contenedor de películas
+        app.innerHTML = ''; 
+
+        // 2. Por cada película, crear una tarjeta y agregarla a la app
+        peliculas.forEach(pelicula => {
+            const peliculaCard = crearPeliculaCard(pelicula);
+            app.appendChild(peliculaCard);
+        });
+    }
+
+    // Función para crear una "tarjeta" (card) de película (sin cambios)
+    function crearPeliculaCard(pelicula) {
+        const card = document.createElement('div');
+        card.className = 'pelicula-card'; 
         const img = document.createElement('img');
         img.src = pelicula.imagenUrl;
         img.alt = pelicula.titulo;
-
-        // 3. Crear el cuerpo de la tarjeta (con el texto)
         const cardBody = document.createElement('div');
         cardBody.className = 'pelicula-card-body';
-
-        // 4. Crear el título
         const titulo = document.createElement('h3');
         titulo.textContent = pelicula.titulo;
-        
-        // 5. Crear el género y el año
         const subheader = document.createElement('p');
         subheader.className = 'subheader';
         subheader.textContent = `${pelicula.genero} (${pelicula.ano})`;
-
-        // 6. Crear la descripción
         const descripcion = document.createElement('p');
         descripcion.textContent = pelicula.descripcion;
-
-        // 7. Crear la puntuación
         const puntuacion = document.createElement('div');
         puntuacion.className = 'puntuacion';
         puntuacion.textContent = `⭐ ${pelicula.puntuacion}`;
-
-        // 8. "Armar" la tarjeta
+        
         cardBody.appendChild(titulo);
         cardBody.appendChild(subheader);
         cardBody.appendChild(descripcion);
@@ -60,14 +93,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const peliculas = await response.json();
             
+            // Guarda las películas en nuestra variable
+            todasLasPeliculas = peliculas; 
+
             // Ocultar el mensaje "Cargando..."
             loading.style.display = 'none';
 
-            // Por cada película en el array, crear una tarjeta y agregarla a la app
-            peliculas.forEach(pelicula => {
-                const peliculaCard = crearPeliculaCard(pelicula);
-                app.appendChild(peliculaCard);
-            });
+            // Dibuja las películas por primera vez
+            renderPeliculas(todasLasPeliculas);
 
         } catch (error) {
             console.error('No se pudieron cargar las películas:', error);
