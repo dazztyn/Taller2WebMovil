@@ -22,7 +22,6 @@ async function insertarSerie() {
 
 con.connect()
 .then(() => console.log('Connected to database'))
-.then(() => insertarSerie())
 .catch(err => console.error('Connection error', err.stack));
 
 export default con;

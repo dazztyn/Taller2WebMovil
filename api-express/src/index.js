@@ -1,8 +1,10 @@
 import express from 'express';
-import db from './db.js';
+import {router as seriesRouter } from '../routes/series.routes.js';
 
 const app = express();
 app.use(express.json());
+
+app.use("/series", seriesRouter);
 
 app.get('/', (req, res) => {
   res.send('Hola esta es la dazztynApi');

@@ -1,0 +1,47 @@
+[
+    {
+    "idserie": 1,
+    "titulo": "Breaking Bad",
+    "lenguaje": "English",
+    "genero": "Drama, Crime",
+    "estreno": "2008-01-20",
+    "rating": 9.5,
+    "imagen": "https://image.url/breakingbad.jpg"
+    },
+    {
+    "idserie": 2,
+    "titulo": "The Office",
+    "lenguaje": "English",
+    "genero": "Comedy",
+    "estreno": "2005-03-24",
+    "rating": 8.9,
+    "imagen": "https://image.url/theoffice.jpg"
+    },
+    {
+        "idserie": 3,
+        "titulo": "La Casa de Papel",
+        "lenguaje": "Spanish",
+        "genero": "Thriller, Heist",
+        "estreno": "2017-05-02",
+        "rating": 8.3,
+        "imagen": "https://image.url/lacasadepapel.jpg"
+    },
+    {
+        "idserie": 4,
+        "titulo": "Stranger Things",
+        "lenguaje": "English",
+        "genero": "Sci-Fi, Horror",
+        "estreno": "2016-07-15",
+        "rating": 8.7,
+        "imagen": "https://image.url/strangerthings.jpg"
+    },
+    {
+        "idserie": 5,
+        "titulo": "Dark",
+        "lenguaje": "German",
+        "genero": "Sci-Fi, Thriller",
+        "estreno": "2017-12-01",
+        "rating": 8.8,
+        "imagen": "https://image.url/dark.jpg"
+    }
+]
