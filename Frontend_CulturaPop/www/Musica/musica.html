@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoMóvil - Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Música</h1>
+    </header>
+
+    <div class="controles-container">
+        <div class="grupo-home">
+            <button id="btn-home" class="btn btn-home">🏠 Volver al Home</button>
+        </div>
+        <div class="grupo-ordenar">
+            <button id="btn-sort-titulo" class="btn">Ordenar por Título (A-Z)</button>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar por artista o canción...">
+        <button id="search-button" class="btn">Buscar</button>
+        <button id="clear-button" class="btn btn-clear">Ver Top Canciones</button>
+    </div>
+    
+    <main id="app" class="container">
+        <div id="loading">Cargando top canciones...</div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

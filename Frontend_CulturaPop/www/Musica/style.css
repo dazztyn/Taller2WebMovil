@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* --- Estilos para Controles (Home/Sort) --- */
+.controles-container {
+    padding: 1rem 1rem 0.5rem 1rem; /* Menos padding abajo */
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    gap: 1rem;
+}
+
+/* --- NUEVO: Estilos para Búsqueda --- */
+.search-container {
+    padding: 0.5rem 1rem 1rem 1rem; /* Padding para unirlo a los controles */
+    display: flex;
+    gap: 0.5rem;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#search-input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.btn.btn-clear {
+    background-color: #f6f6f6;
+    color: #555;
+    border-color: #ccc;
+}
+.btn.btn-clear:hover {
+    background-color: #e0e0e0;
+}
+/* --- FIN: Estilos Búsqueda --- */
+
+
+.grupo-home {
+    flex-basis: auto;
+}
+.grupo-ordenar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    white-space: nowrap; /* Evita que el texto del botón se parta */
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn.btn-home {
+    background-color: #5a67d8; 
+    color: white;
+    border-color: #5a67d8;
+}
+.btn.btn-home:hover {
+    background-color: #434190;
+}
+
+
+/* Contenedor de canciones */
+.container {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+#loading {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    grid-column: 1 / -1; 
+}
+
+/* Estilos de la Tarjeta */
+.pelicula-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pelicula-card img {
+    width: 100%;
+    /* Hacemos las imágenes cuadradas para portadas de álbum */
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.pelicula-card-body {
+    padding: 1rem;
+}
+
+.pelicula-card-body h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    /* Evita que títulos muy largos rompan el diseño */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pelicula-card-body .subheader {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+
+/* --- NUEVO: Estilo para Play (reemplaza .puntuacion) --- */
+.play-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(29, 185, 84, 0.9); /* Verde Spotify */
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.play-button:hover {
+    background-color: rgba(25, 160, 70, 1);
+}
