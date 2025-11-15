@@ -1,14 +1,18 @@
-import { Client } from 'pg';
+import pg from 'pg';
+import 'dotenv/config';
+
+const { Client } = pg;
 
 const con = new Client({
-  host: 'localhost',
-  user: 'postgres',
-  port: 5432,
-  password: 'dazztynbd',
-  database: "dazztynDB"
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    port: process.env.DB_PORT,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
 });
 
-//funcion de testeo para insertar una serie
+/*funcion de testeo para insertar una serie
+
 async function insertarSerie() {
   const query = `
     INSERT INTO series (idSerie, titulo, lenguaje, genero, estreno, rating, imagen)
@@ -19,9 +23,11 @@ async function insertarSerie() {
   console.log("Serie agregada correctamente");
 }
 
+*/
 
 con.connect()
 .then(() => console.log('Connected to database'))
+.then(() => console.log("Connected to:", process.env.DB_NAME))
 .catch(err => console.error('Connection error', err.stack));
 
 export default con;
