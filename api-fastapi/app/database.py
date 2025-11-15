@@ -1,4 +1,4 @@
-import requests  # Importamos la librería para hacer llamadas HTTP
+import requests
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
